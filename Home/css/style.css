@@ -57,6 +57,7 @@ h1 {
     align-items: center;
     justify-content: space-between;
     margin-top: -18vh;
+    background-color: white;
 
 }
 
@@ -115,7 +116,6 @@ h1 {
     background-color: black;
     color: white;
     border-radius: 15px;
-
     height: 5vh;
     font-size: 1em;
     outline: 0;
@@ -126,6 +126,55 @@ h1 {
     height: 45vh;
     margin-top: 2vh;
 
+
+
+}
+
+
+
+.second-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+    width: 100%;
+    padding: 0vh 3vw 0vh 3vw;
+    background-color: black;
+    margin-top: -18vh;
+
+}
+
+.second-section-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 5vh;
+}
+
+.second-section-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+
+#image-ana {
+    width: 70%;
+    border-top-right-radius: 70vh 100vh;
+    padding: 3vh 0vw 3vh 0vw;
+}
+
+#title-second-section {
+    color: white;
+    font-size: 4em !important;
+    overflow-y: hidden;
+}
+
+p {
+    color: white;
+    font-size: 1.2em !important;
 }
 
 @media (max-width: 1024px) {
@@ -155,7 +204,7 @@ h1 {
 
     .but-top {
         font-size: 0.8em;
-        
+
         text-align: center;
     }
 
@@ -167,7 +216,7 @@ h1 {
     .nav-header-first {
         font-size: 0.55em;
 
-    } 
+    }
 
 
 }
@@ -184,7 +233,7 @@ h1 {
     }
 
     .but-top {
-        font-size: 1    em;
+        font-size: 1 em;
         width: 100%;
         height: 5vh;
         text-align: center;
