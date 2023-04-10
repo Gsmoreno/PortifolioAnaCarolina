@@ -125,9 +125,6 @@ h1 {
 #logo1 {
     height: 45vh;
     margin-top: 2vh;
-
-
-
 }
 
 
@@ -157,18 +154,18 @@ h1 {
     align-items: center;
     justify-content: center;
     width: 50%;
-    
+
 }
 
 #image-ana {
     width: 70%;
-    border-top-right-radius: 70vh 100vh;
+    border-radius: 0 70vh 0 0;
     padding: 3vh 0vw 3vh 0vw;
 }
 
 #title-second-section {
     color: white;
-    font-size: 4em !important;
+    font-size: 3.5em !important;
     overflow-y: hidden;
 }
 
