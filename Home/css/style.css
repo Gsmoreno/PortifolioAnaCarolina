@@ -194,13 +194,13 @@ p {
     flex-direction: column;
     justify-content: flex-start;
     gap: 1vh;
-    
+
 }
 
-.formacao-left {    
+.formacao-left {
     width: 50%;
     height: 100%;
-    display: flex;    
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 3vw;
@@ -208,7 +208,7 @@ p {
 
 #title-formacao {
     color: rgb(0, 0, 0);
-    font-size: 2em !important;
+    font-size: 2.2em !important;
     overflow-y: hidden;
     font-weight: 600;
 
@@ -219,8 +219,8 @@ p {
 }
 
 #ana-formacao {
-    width: 100vw  ;
-    margin-left: -37vw ;
+    width: 100vw;
+    margin-left: -37vw;
 }
 
 #img-ana-formacao {
@@ -228,6 +228,55 @@ p {
     align-items: flex-start;
 }
 
+.photos-container {
+    background-color: black;
+    padding: 5vh 2vw;
+}
+
+
+.top-photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;   
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.videos {
+    width: 60%;
+    border-radius: 50%;
+}
+
+.title-photos {
+    color: white;
+}
+
+.contianer-title-photos {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.desc-photos-but {
+    width: 20vw;
+    height: 10vh;
+    border: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.title-but-desc {
+    font-size: 1.2em !important;
+}
 
 
 @media (max-width: 1024px) {
