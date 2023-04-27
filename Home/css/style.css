@@ -147,6 +147,7 @@ h1 {
     flex-direction: column;
     width: 50%;
     padding-top: 5vh;
+
 }
 
 .second-section-right {
@@ -168,6 +169,7 @@ h1 {
     color: white;
     font-size: 3.5em !important;
     overflow-y: hidden;
+    margin-bottom: 2vh;
 }
 
 
@@ -239,10 +241,10 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5vh;   
+    gap: 5vh;
     text-align: center;
     overflow: hidden;
-    
+
 }
 
 .videos {
@@ -266,7 +268,6 @@ p {
     width: 20vw;
     height: 10vh;
     border: none;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -276,6 +277,67 @@ p {
 
 .title-but-desc {
     font-size: 1.2em !important;
+}
+
+.container-curiosidades {
+    width: 100%;
+    display: flex;
+}
+
+.curiosidade-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.curiosidade-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.container-img {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-bottom: 5vh;    
+}
+
+.container-text {
+    background-color: black;
+    width: 20vw;
+    padding: 5%;
+    margin-bottom: 10vh;
+    height: 40vh;
+    position: absolute;
+    margin-top: 55vh;
+}
+
+.desc-curiosity {
+    font-size: 1em !important;
+}
+
+.title-desc-curiosity {
+    color: white;
+    font-size: 1.5em !important;
+}
+
+.line {
+    border: solid 1pt white;
+    margin-bottom: 2vh;
 }
 
 
