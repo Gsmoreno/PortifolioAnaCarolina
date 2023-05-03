@@ -170,6 +170,8 @@ h1 {
     font-size: 3.5em !important;
     overflow-y: hidden;
     margin-bottom: 2vh;
+    line-height: 120%;
+    letter-spacing: -0.75px;
 }
 
 
@@ -213,6 +215,8 @@ p {
     font-size: 2.2em !important;
     overflow-y: hidden;
     font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.75px;
 
 }
 
@@ -277,11 +281,14 @@ p {
 
 .title-but-desc {
     font-size: 1.2em !important;
+    line-height: 120%;
+    letter-spacing: -0.75px;
 }
 
 .container-curiosidades {
     width: 100%;
     display: flex;
+    margin-bottom: 5vh;
 }
 
 .curiosidade-right {
@@ -290,9 +297,7 @@ p {
     justify-content: center;
     align-items: center;
     width: 50%;
-    position: relative;
-    z-index: 2;
-    overflow: hidden;
+
 }
 
 .curiosidade-left {
@@ -301,8 +306,7 @@ p {
     justify-content: center;
     align-items: center;
     width: 50%;
-    position: relative;
-    z-index: 2;
+
 }
 
 .container-img {
@@ -310,20 +314,24 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    margin-bottom: 5vh;    
+    
 }
 
 .container-text {
     background-color: black;
     width: 20vw;
     padding: 5%;
-    margin-bottom: 10vh;
-    height: 40vh;
-    position: absolute;
-    margin-top: 55vh;
+    margin-top: 3vh;
+    height: 40vh;    
+}
+
+.container-title {
+    margin-bottom: 13vh;
+    
+}
+
+.container-title h2 {
+    font-weight: 900;
 }
 
 .desc-curiosity {
@@ -333,11 +341,77 @@ p {
 .title-desc-curiosity {
     color: white;
     font-size: 1.5em !important;
+    line-height: 120%;
+    letter-spacing: -0.75px;
 }
 
 .line {
     border: solid 1pt white;
     margin-bottom: 2vh;
+}
+
+#dente-saudavel {
+    position: absolute;
+    width: 70%;
+    cursor: pointer;
+    
+}
+
+#dente-cariado {
+    position: absolute;
+    width: 70%;
+    cursor: pointer;
+}
+
+.container-afazeres {
+    background-color: black;
+    background-image: url(/Home/assets/img/fitacaindo.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 5vh;
+    overflow: hidden;
+    padding: 5vh 0vw 5vh 0vw;
+    
+
+}
+
+#title-afazeres {
+    text-align: center;
+    color: #fafafa;
+    line-height: 120%;
+    letter-spacing: -0.75px;
+    font-size: 2.5rem !important;
+}
+
+.afazeres-img-icon {
+    display: flex;
+
+}
+
+.icon-check {
+    width:70%;
+    position: absolute  ;
+    margin-left: -32vw;
+    margin-top: -11vh;
+}
+
+
+.afazer-btn {
+    background-color: #101011;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 2rem 4rem;
+    border: solid #fafafa 2pt;
+    border-radius: 100vmax;
+    width: 48vw;
+    
 }
 
 
